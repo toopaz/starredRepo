@@ -1,0 +1,6 @@
+<div class= "row" infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="50" (scrolled)="onScroll()">
+  <div class = "col-xs-12" *ngFor = "let repos of repolist">
+    <app-starred-repo-item *ngFor = "let starredRepoGh of repos"
+    [starredRepo] = "starredRepoGh" ></app-starred-repo-item>
+  </div>
+</div>
