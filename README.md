@@ -16,6 +16,11 @@ Username and avatar of the owner.
 How to get the data from Github  
 To get the most starred Github repos created in the last 30 days, you'll need to call the following endpoint :   https://api.github.com/search/repositories?q=created:>2020-08-04&sort=stars&order=desc The JSON data from Github will be paginated (you'll receive around 100 repos per JSON page). To get the 2nd page, you add &page=2 to the end of your API request : https://api.github.com/search/repositories?q=created:>2020-07-04&sort=stars&order=desc&page=2 To get the 3rd page, you add &page=3 ... etc You can read more about the Github API over here.
 
+## ScreenShots
+  
+![list-repos](https://user-images.githubusercontent.com/68420640/89283126-e8cf9c00-d64c-11ea-9edd-b6c7437a4cd2.PNG)
+
+
 ## Technologies Used in Project
 Angular  
 Bootstrap  
